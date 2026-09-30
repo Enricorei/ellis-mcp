@@ -1,0 +1,295 @@
+{
+  "cliente": {
+    "id": "cli_giuseppe_russo",
+    "nome": "Giuseppe",
+    "cognome": "Russo",
+    "eta": 67,
+    "professione": "Pensionato (ex Insegnante di Liceo)",
+    "tipologia_profilo": "pensionato",
+    "difficolta_app": "Trova complesso navigare nei sottomenù dell'app mobile standard. Preferisce la chat vocale o interfacce scritte grandi e conversazionali in italiano.",
+    "saldo": 1450.2,
+    "prodotti_in_possesso": [
+      {
+        "id": "xme-conto-silver",
+        "nome": "XME Conto Silver",
+        "tipo": "conto_corrente"
+      },
+      {
+        "id": "xme-debit",
+        "nome": "XME Debit",
+        "tipo": "carta",
+        "sottocategoria": "debito",
+        "numero": "•••• •••• •••• 4321",
+        "stato": "ATTIVA",
+        "immagine_url": "https://images.unsplash.com/photo-1589758438368-0ad531db3366?w=400"
+      },
+      {
+        "id": "xme-card-plus",
+        "nome": "XME Card Plus",
+        "tipo": "carta",
+        "sottocategoria": "debito",
+        "numero": "•••• •••• •••• 8765",
+        "stato": "ATTIVA",
+        "immagine_url": "https://images.unsplash.com/photo-1601597111158-2fceff270190?w=400"
+      }
+    ],
+    "limiti_operativi": {
+      "limite_giornaliero_bonifico": 1500.0,
+      "limite_mensile_bonifico": 5000.0
+    },
+    "prodotti_consigliati_upselling": [
+      {
+        "id": "xme-credit-card",
+        "nome": "XME Carta di Credito",
+        "categoria": "carta_credito",
+        "immagine_url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400",
+        "utilita_per_cliente": "Giuseppe, hai spese ricorrenti importanti come l'assicurazione auto da 320€ e le spese condominiali. Con la carta di credito XME puoi pagarle subito e restituire l'importo comodamente il mese successivo — o anche a rate fisse mensili — senza toccare il saldo del conto. È come avere un piccolo cuscinetto finanziario sempre disponibile.",
+        "benefici_chiave": [
+          "Paghi oggi, addebito posticipato al mese successivo",
+          "Rateizza le spese grandi in comode rate mensili",
+          "Protegge il saldo del conto corrente nei mesi pesanti",
+          "Accettata ovunque, anche per acquisti online e all'estero"
+        ],
+        "trigger_contestuale": "Proponi quando: l'utente menziona scadenze, pagamenti importanti, spese sanitarie, o chiede come gestire meglio le uscite mensili."
+      },
+      {
+        "id": "xme-prestito",
+        "nome": "XME Prestito Personale",
+        "categoria": "prestito",
+        "immagine_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400",
+        "utilita_per_cliente": "Giuseppe, hai spese di salute frequenti e la casa richiede attenzione. Se dovesse presentarsi una spesa importante — una visita specialistica costosa, un intervento in casa, o un regalo speciale per i nipoti — il Prestito Personale XME ti mette a disposizione subito la liquidità che ti serve, con una rata mensile fissa che pianifichi in anticipo e non ti riserva sorprese.",
+        "benefici_chiave": [
+          "Liquidità immediata da 1.000€ a 30.000€",
+          "Rata mensile fissa, nessuna sorpresa",
+          "Durata flessibile da 12 a 84 mesi",
+          "Risposta in pochi minuti, senza burocrazia complessa"
+        ],
+        "trigger_contestuale": "Proponi quando: l'utente menziona spese sanitarie elevate, lavori in casa, acquisti importanti, o necessità di liquidità extra."
+      }
+    ]
+  },
+  "transazioni": [
+    {
+      "id": "tx_001",
+      "data": "2026-05-24",
+      "esercente": "Farmacia Comunale Milano",
+      "categoria": "Salute e Benessere",
+      "importo": -34.5,
+      "modalita": "Carta di Debito",
+      "descrizione": "Acquisto farmaci e integratori per la pressione"
+    },
+    {
+      "id": "tx_002",
+      "data": "2026-05-23",
+      "esercente": "Supermercato Esselunga",
+      "categoria": "Spesa e Alimentari",
+      "importo": -89.4,
+      "modalita": "Carta di Debito",
+      "descrizione": "Spesa alimentare settimanale"
+    },
+    {
+      "id": "tx_003",
+      "data": "2026-05-20",
+      "esercente": "ENEL Energia S.p.A.",
+      "categoria": "Utenze e Bollette",
+      "importo": -78.2,
+      "modalita": "Addebito Diretto (SDD)",
+      "descrizione": "Bolletta luce bimestrale"
+    },
+    {
+      "id": "tx_004",
+      "data": "2026-05-18",
+      "esercente": "ATM Filiale Intesa Sanpaolo Milano",
+      "categoria": "Prelievi",
+      "importo": -150.0,
+      "modalita": "Prelievo Contante",
+      "descrizione": "Prelievo bancomat per piccole spese quotidiane"
+    },
+    {
+      "id": "tx_005",
+      "data": "2026-05-15",
+      "esercente": "INPS - Istituto Nazionale Previdenza Sociale",
+      "categoria": "Entrate",
+      "importo": 1650.0,
+      "modalita": "Bonifico SEPA",
+      "descrizione": "Accredito Pensione Maggio 2026"
+    },
+    {
+      "id": "tx_006",
+      "data": "2026-05-10",
+      "esercente": "Supermercato Coop Lombardia",
+      "categoria": "Spesa e Alimentari",
+      "importo": -65.3,
+      "modalita": "Carta di Debito",
+      "descrizione": "Spesa alimentare fresca"
+    },
+    {
+      "id": "tx_007",
+      "data": "2026-05-08",
+      "esercente": "Studio Medico Cardiologico Dott. Bianchi",
+      "categoria": "Salute e Benessere",
+      "importo": -120.0,
+      "modalita": "Carta di Debito",
+      "descrizione": "Visita cardiologica specialistica di controllo"
+    },
+    {
+      "id": "tx_008",
+      "data": "2026-05-05",
+      "esercente": "Poste Italiane - Ufficio Postale",
+      "categoria": "Utenze e Bollette",
+      "importo": -112.5,
+      "modalita": "Carta di Debito",
+      "descrizione": "Pagamento bollettino cartaceo Tassa Rifiuti (TARI)"
+    },
+    {
+      "id": "tx_009",
+      "data": "2026-05-02",
+      "esercente": "Libreria Feltrinelli",
+      "categoria": "Tempo Libero e Cultura",
+      "importo": -28.0,
+      "modalita": "Carta di Debito",
+      "descrizione": "Acquisto libri di lettura e narrativa"
+    },
+    {
+      "id": "tx_010",
+      "data": "2026-04-28",
+      "esercente": "ATM Filiale Intesa Sanpaolo Milano",
+      "categoria": "Prelievi",
+      "importo": -100.0,
+      "modalita": "Prelievo Contante",
+      "descrizione": "Prelievo contante di sicurezza"
+    },
+    {
+      "id": "tx_011",
+      "data": "2026-04-24",
+      "esercente": "Farmacia Comunale Milano",
+      "categoria": "Salute e Benessere",
+      "importo": -45.1,
+      "modalita": "Carta di Debito",
+      "descrizione": "Acquisto farmaci prescritti"
+    },
+    {
+      "id": "tx_012",
+      "data": "2026-04-23",
+      "esercente": "Supermercato Esselunga",
+      "categoria": "Spesa e Alimentari",
+      "importo": -95.2,
+      "modalita": "Carta di Debito",
+      "descrizione": "Spesa alimentare mensile"
+    },
+    {
+      "id": "tx_013",
+      "data": "2026-04-15",
+      "esercente": "INPS - Istituto Nazionale Previdenza Sociale",
+      "categoria": "Entrate",
+      "importo": 1650.0,
+      "modalita": "Bonifico SEPA",
+      "descrizione": "Accredito Pensione Aprile 2026"
+    },
+    {
+      "id": "tx_014",
+      "data": "2026-04-12",
+      "esercente": "Condominio Giardini - Amministratore",
+      "categoria": "Casa e Condominio",
+      "importo": -180.0,
+      "modalita": "Bonifico SEPA",
+      "descrizione": "Rata spese condominiali I trimestre"
+    },
+    {
+      "id": "tx_015",
+      "data": "2026-04-05",
+      "esercente": "Pizzeria Ristorante Da Mimmo",
+      "categoria": "Tempo Libero e Cultura",
+      "importo": -54.0,
+      "modalita": "Carta di Debito",
+      "descrizione": "Pranzo domenicale con i figli e nipoti"
+    }
+  ],
+  "prossimi_pagamenti": [
+    {
+      "id": "pay_001",
+      "data_scadenza": "2026-07-05",
+      "destinatario": "ENEL Energia (Bolletta Luce)",
+      "importo": 92.4,
+      "stato": "in_scadenza",
+      "modalita": "Addebito Diretto (SDD)",
+      "descrizione": "Spese energia elettrica domestica bimestrale",
+      "suggerimento_prodotto": {
+        "id": "spensierata",
+        "messaggio": "Giuseppe, le bollette possono pesare sul budget del mese. Con 'SpensieRata', puoi dividere l'importo di spese impreviste o bollette da 200€ a 5.000€ in comode rate mensili direttamente dalla chat, senza burocrazia e con risposta immediata."
+      }
+    },
+    {
+      "id": "pay_002",
+      "data_scadenza": "2026-07-15",
+      "destinatario": "Assicurazione Auto (Polizza GuidainStato di Intesa Sanpaolo Assicura)",
+      "importo": 320.0,
+      "stato": "in_scadenza",
+      "modalita": "Pagamento Manuale (online o in filiale)",
+      "descrizione": "Rinnovo annuale della copertura Responsabilità Civile Auto",
+      "suggerimento_prodotto": {
+        "id": "xme-credit-card",
+        "messaggio": "Per pagamenti importanti come l'assicurazione dell'auto, la 'XME Carta di Credito' ti consente di rinviare l'addebito delle spese al mese successivo, oppure di rateizzare l'importo per pagarlo poco alla volta, aiutandoti a gestire meglio le uscite mensili."
+      }
+    },
+    {
+      "id": "pay_003",
+      "data_scadenza": "2026-07-28",
+      "destinatario": "Amministratore Condominio Giardini",
+      "importo": 180.0,
+      "stato": "in_scadenza",
+      "modalita": "Pagamento Manuale (Bonifico bancario)",
+      "descrizione": "Spese condominiali ordinarie III trimestre",
+      "suggerimento_prodotto": {
+        "id": "xme-conto-gold",
+        "messaggio": "Fai spesso bonifici per pagare il condominio o altre utenze? Passando a 'XME Conto Gold', potrai azzerare le commissioni su tutti i bonifici fatti online. In più, avrai la prima carta di credito completamente inclusa nel canone!"
+      }
+    }
+  ],
+  "auth": {
+    "codice_titolare": "12345678",
+    "pin": "12345"
+  },
+  "promemoria_impostati": [
+    {
+      "id": "rem_1779897882",
+      "timestamp_creazione": "2026-05-27T18:04:42.327428",
+      "payment_id": "pay_002",
+      "destinatario": "Assicurazione Auto (Polizza GuidainStato di Intesa Sanpaolo Assicura)",
+      "importo": 320.0,
+      "data_promemoria": "2026-06-03",
+      "nota": "Pagare l assicurazione auto 320 EUR",
+      "stato": "attivo"
+    },
+    {
+      "id": "rem_1779898250",
+      "timestamp_creazione": "2026-05-27T18:10:50.658832",
+      "payment_id": "pay_002",
+      "destinatario": "Assicurazione Auto (Polizza GuidainStato di Intesa Sanpaolo Assicura)",
+      "importo": 320.0,
+      "data_promemoria": "2026-06-03",
+      "nota": "Ricordami di pagare l'assicurazione dell'auto in scadenza il 5 giugno 2026, importo 320 €.",
+      "stato": "attivo"
+    },
+    {
+      "id": "rem_1779902221",
+      "timestamp_creazione": "2026-05-27T19:17:01.868887",
+      "payment_id": "pay_002",
+      "destinatario": "Assicurazione Auto (Polizza GuidainStato di Intesa Sanpaolo Assicura)",
+      "importo": 320.0,
+      "data_promemoria": "2026-06-04",
+      "nota": "Ricordami di pagare l'assicurazione auto in scadenza il 5 giugno 2026.",
+      "stato": "attivo"
+    },
+    {
+      "id": "rem_1780673168",
+      "timestamp_creazione": "2026-06-05T17:26:08.210777",
+      "payment_id": "pay_003",
+      "destinatario": "Amministratore Condominio Giardini",
+      "importo": 180.0,
+      "data_promemoria": "2026-06-14",
+      "nota": "Promemoria per pagare le spese condominiali ordinarie II trimestre all’Amministratore Condominio Giardini, scadenza 15/06/2026, importo 180,00 €.",
+      "stato": "attivo"
+    }
+  ]
+}

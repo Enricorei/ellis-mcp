@@ -1,0 +1,10 @@
+venv/
+*.log
+server_err.*
+server_out.*
+__pycache__/
+*.pyc
+data/leads.json
+
+# Node build deps (dist/ is pre-built and committed, node_modules is not needed)
+node_modules/

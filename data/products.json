@@ -1,0 +1,568 @@
+{
+  "metadata": {
+    "fonte": "intesasanpaolo.com",
+    "aggiornato": "2026-05-20",
+    "versione": "1.0",
+    "assistente": "Ellis di Intesa Sanpaolo"
+  },
+  "prodotti": [
+
+    {
+      "id": "xme-conto-silver",
+      "nome": "XME Conto Silver",
+      "categoria": "conto_corrente",
+      "descrizione_breve": "Il conto corrente base con carta di debito inclusa e deposito amministrato a zero",
+      "descrizione_completa": "Conto corrente completo con prima carta di debito inclusa nel canone e accesso al Deposito Amministrato senza costi aggiuntivi. Ideale per chi vuole un conto semplice con i servizi essenziali.",
+      "target": ["adulti", "privati", "primo_conto", "operatività_base"],
+      "bisogni": ["gestire_spese_quotidiane", "pagamenti_digitali", "operatività_base"],
+      "costi": {
+        "canone_mensile": "5,90€",
+        "carta_debito": "inclusa",
+        "deposito_amministrato": "gratuito"
+      },
+      "features": [
+        "Carta di debito inclusa nel canone",
+        "Deposito Amministrato a canone zero",
+        "Operazioni online",
+        "App mobile Intesa Sanpaolo"
+      ],
+      "vantaggi": [
+        "Canone contenuto per chi ha operatività base",
+        "Carta di debito senza costi extra",
+        "Accesso a tutti i canali digitali"
+      ],
+      "condizioni": [],
+      "adatto_se": "Cerchi un conto semplice con pochi servizi e basso canone mensile",
+      "non_adatto_se": "Hai molte operazioni bancarie mensili o vuoi la carta di credito inclusa",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/conti-e-libretti.html",
+      "immagine_url": "https://images.unsplash.com/photo-1541354329998-f4d9a9f9297f?w=400",
+      "tags": ["conto", "base", "silver", "carta debito", "economico"]
+    },
+
+    {
+      "id": "xme-conto-gold",
+      "nome": "XME Conto Gold",
+      "categoria": "conto_corrente",
+      "descrizione_breve": "Conto evoluto con carta di credito gratuita e agevolazioni sulle operazioni principali",
+      "descrizione_completa": "Conto corrente di livello intermedio che include la prima carta di credito a canone zero e agevolazioni sulle operazioni principali come bonifici e prelievi. Pensato per chi ha un'operatività media e vuole più servizi inclusi.",
+      "target": ["adulti", "lavoratori", "operatività_media", "famiglie"],
+      "bisogni": ["gestire_spese_quotidiane", "carta_credito", "operatività_media", "risparmio_commissioni"],
+      "costi": {
+        "canone_mensile": "10,90€",
+        "carta_credito": "gratuita (prima carta)",
+        "carta_debito": "inclusa",
+        "bonifici": "agevolati"
+      },
+      "features": [
+        "Prima carta di credito a canone zero",
+        "Carta di debito inclusa",
+        "Agevolazioni su operazioni principali",
+        "App mobile e internet banking",
+        "Deposito Amministrato incluso"
+      ],
+      "vantaggi": [
+        "Carta di credito gratuita con il conto",
+        "Commissioni ridotte sulle operazioni",
+        "Buon equilibrio tra costo e servizi offerti"
+      ],
+      "condizioni": [],
+      "adatto_se": "Hai un'operatività media, vuoi la carta di credito inclusa e un risparmio sulle commissioni",
+      "non_adatto_se": "Fai pochissime operazioni (meglio Silver) o hai operatività molto alta (meglio Platinum)",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/conti-e-libretti.html",
+      "immagine_url": "https://images.unsplash.com/photo-1601597111158-2fceff270190?w=400",
+      "tags": ["conto", "gold", "carta credito", "agevolazioni", "medio"]
+    },
+
+    {
+      "id": "xme-conto-platinum",
+      "nome": "XME Conto Platinum",
+      "categoria": "conto_corrente",
+      "descrizione_breve": "Il conto top con commissioni azzerate e carte di debito e credito gratuite",
+      "descrizione_completa": "Il piano più completo della gamma XME Conto. Include carte di debito e credito a canone zero e commissioni azzerate su tutte le operazioni principali. Per chi usa la banca intensamente e vuole il massimo dei servizi senza costi per ogni operazione.",
+      "target": ["adulti", "professionisti", "alta_operatività", "famiglie_attive"],
+      "bisogni": ["operatività_elevata", "zero_commissioni", "massimi_servizi", "carte_incluse"],
+      "costi": {
+        "canone_mensile": "20,90€",
+        "carta_credito": "gratuita",
+        "carta_debito": "gratuita",
+        "commissioni_operazioni": "azzerate"
+      },
+      "features": [
+        "Carta di debito e credito a canone zero",
+        "Commissioni azzerate su tutte le operazioni principali",
+        "Massima operatività senza costi aggiuntivi",
+        "App mobile e internet banking completo"
+      ],
+      "vantaggi": [
+        "Zero commissioni su operazioni principali",
+        "Tutte le carte incluse",
+        "Il conto che paga di più se usi spesso la banca"
+      ],
+      "condizioni": [],
+      "adatto_se": "Fai molte operazioni bancarie ogni mese e vuoi non pensare alle commissioni",
+      "non_adatto_se": "Hai un'operatività bassa — pagheresti un canone alto per servizi che non usi",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/conti-e-libretti.html",
+      "tags": ["conto", "platinum", "zero commissioni", "top", "completo", "alta operatività"]
+    },
+
+    {
+      "id": "xme-conto-up",
+      "nome": "XME Conto UP!",
+      "categoria": "conto_corrente",
+      "descrizione_breve": "Conto gratuito per i figli fino a 18 anni con parental control",
+      "descrizione_completa": "Conto corrente dedicato ai minori fino a 18 anni, completamente gratuito. Include strumenti di parental control che permettono ai genitori di impostare limiti di spesa e prelievo. Ideale per insegnare ai giovani a gestire il denaro in modo responsabile.",
+      "target": ["minori", "under_18", "giovani", "famiglie_con_figli"],
+      "bisogni": ["conto_per_figli", "educazione_finanziaria", "controllo_genitori", "canone_zero"],
+      "costi": {
+        "canone_mensile": "Gratuito",
+        "carta": "inclusa"
+      },
+      "features": [
+        "Canone zero fino ai 18 anni",
+        "Parental control con limiti di spesa e prelievo",
+        "Carta di pagamento inclusa",
+        "App mobile per giovani"
+      ],
+      "vantaggi": [
+        "Completamente gratuito",
+        "I genitori possono monitorare e limitare le spese",
+        "Educa i ragazzi alla gestione del denaro"
+      ],
+      "condizioni": ["Titolare deve avere meno di 18 anni"],
+      "adatto_se": "Hai un figlio under 18 a cui vuoi dare un conto con carta, mantenendo il controllo",
+      "non_adatto_se": "Il titolare ha più di 18 anni",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/conti-e-libretti.html",
+      "tags": ["conto", "minori", "under 18", "gratuito", "figli", "parental control", "giovani"]
+    },
+
+    {
+      "id": "conto-di-base",
+      "nome": "Conto di Base",
+      "categoria": "conto_corrente",
+      "descrizione_breve": "Conto essenziale per soddisfare le esigenze bancarie minime, gratuito per ISEE basso",
+      "descrizione_completa": "Conto corrente che soddisfa le esigenze bancarie di base inclusi gli addebiti diretti per utenze. Gratuito per chi ha un ISEE inferiore a 11.600€ o per pensionati con redditi fino a 18.000€ lordi annui.",
+      "target": ["fasce_deboli", "pensionati", "basso_reddito", "isee_basso"],
+      "bisogni": ["servizi_essenziali", "costo_zero", "accettazione_utenze"],
+      "costi": {
+        "canone_mensile": "Gratuito per ISEE <11.600€ o pensionati reddito ≤18.000€ lordi/anno",
+        "note": "Canone variabile per chi non rientra nei requisiti"
+      },
+      "features": [
+        "Addebiti diretti per utenze inclusi",
+        "Servizi bancari essenziali",
+        "Gratuito per categorie protette"
+      ],
+      "vantaggi": [
+        "Zero costi per chi ha redditi bassi",
+        "Risponde ai requisiti minimi bancari",
+        "Accesso garantito ai servizi di base"
+      ],
+      "condizioni": [
+        "Gratuito con ISEE inferiore a 11.600€",
+        "Gratuito per pensionati con reddito lordo annuo ≤18.000€"
+      ],
+      "adatto_se": "Hai un reddito basso o sei pensionato con reddito contenuto e hai bisogno solo dei servizi bancari essenziali",
+      "non_adatto_se": "Vuoi un conto completo con carta di credito, investimenti o servizi avanzati",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/conti-e-libretti.html",
+      "tags": ["conto", "base", "gratuito", "ISEE", "pensionati", "basso reddito", "essenziale"]
+    },
+
+    {
+      "id": "xme-credit-card",
+      "nome": "XME Carta di Credito",
+      "categoria": "carta",
+      "sottocategoria": "credito",
+      "descrizione_breve": "Carta di credito standard con plafond fino a 3.000€ su circuiti Visa/Mastercard",
+      "descrizione_completa": "Carta di credito per uso quotidiano con plafond fino a 3.000€. Disponibile sui circuiti Visa e Mastercard, con tecnologia contactless e possibilità di controllo geografico per acquisti online.",
+      "target": ["adulti", "famiglie", "uso_quotidiano"],
+      "bisogni": ["pagamenti_rateali", "acquisti_online", "flessibilità_pagamento"],
+      "costi": {
+        "plafond": "Fino a 3.000€",
+        "circuiti": "Visa / Mastercard"
+      },
+      "features": [
+        "Plafond fino a 3.000€",
+        "Circuiti Visa e Mastercard",
+        "Tecnologia contactless",
+        "Controlli geografici per acquisti online",
+        "Opzione family"
+      ],
+      "vantaggi": [
+        "Accettata ovunque nel mondo",
+        "Pagamenti contactless",
+        "Controllo spese online"
+      ],
+      "condizioni": [],
+      "adatto_se": "Vuoi una carta di credito per uso quotidiano con plafond adeguato alle spese familiari",
+      "non_adatto_se": "Hai bisogno di un plafond molto elevato o di servizi premium",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/carte.html",
+      "immagine_url": "https://images.unsplash.com/photo-1589758438368-0ad531db3366?w=400",
+      "tags": ["carta", "credito", "visa", "mastercard", "contactless", "plafond 3000"]
+    },
+
+    {
+      "id": "xme-credit-icon",
+      "nome": "XME Credit Icon",
+      "categoria": "carta",
+      "sottocategoria": "credito",
+      "descrizione_breve": "Carta di credito premium con plafond fino a 100.000€ mensili",
+      "descrizione_completa": "Carta di credito di alto profilo con plafond mensile fino a 100.000€. Disponibile su circuiti Visa e Mastercard con tecnologia contactless e controlli geografici avanzati per acquisti online. Pensata per clienti con alta capacità di spesa.",
+      "target": ["alto_spendente", "professionisti", "imprenditori", "premium"],
+      "bisogni": ["plafond_elevato", "spese_aziendali", "flessibilità_alta"],
+      "costi": {
+        "plafond": "Fino a 100.000€ mensili",
+        "circuiti": "Visa / Mastercard"
+      },
+      "features": [
+        "Plafond mensile fino a 100.000€",
+        "Circuiti Visa e Mastercard",
+        "Tecnologia contactless",
+        "Controlli geografici per acquisti online"
+      ],
+      "vantaggi": [
+        "Plafond molto elevato per spese importanti",
+        "Massima flessibilità di utilizzo",
+        "Accettata globalmente"
+      ],
+      "condizioni": [],
+      "adatto_se": "Hai necessità di un plafond molto alto per spese professionali o personali elevate",
+      "non_adatto_se": "Hai spese mensili nella media — un plafond da 3.000€ è sufficiente",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/carte.html",
+      "tags": ["carta", "credito", "premium", "alto plafond", "icon", "100000"]
+    },
+
+    {
+      "id": "carta-superflash",
+      "nome": "Carta Superflash",
+      "categoria": "carta",
+      "sottocategoria": "prepagata",
+      "descrizione_breve": "Carta prepagata ricaricabile con IBAN fino a 10.000€ di ricariche",
+      "descrizione_completa": "Carta prepagata ricaricabile sul circuito Mastercard con possibilità di ricariche fino a 10.000€. Utile per chi vuole tenere separate le spese o non ha ancora un conto corrente completo.",
+      "target": ["giovani", "under_30", "primo_strumento_pagamento", "online_shopper"],
+      "bisogni": ["pagamenti_online", "controllo_spesa", "indipendenza_dal_conto", "primo_strumento"],
+      "costi": {
+        "ricariche_massime": "Fino a 10.000€",
+        "circuito": "Mastercard"
+      },
+      "features": [
+        "Ricaricabile fino a 10.000€",
+        "Circuito Mastercard",
+        "Utilizzabile online e nei negozi",
+        "Contactless"
+      ],
+      "vantaggi": [
+        "Spendi solo quello che hai caricato",
+        "Ideale per acquisti online in sicurezza",
+        "Non richiede un conto corrente collegato"
+      ],
+      "condizioni": [],
+      "adatto_se": "Vuoi uno strumento di pagamento sicuro e controllato, specialmente online",
+      "non_adatto_se": "Hai bisogno di un conto corrente completo con accredito stipendio",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/carte.html",
+      "tags": ["carta", "prepagata", "superflash", "ricaricabile", "online", "giovani"]
+    },
+
+    {
+      "id": "carta-pensione",
+      "nome": "Carta Pensione",
+      "categoria": "carta",
+      "sottocategoria": "prepagata",
+      "descrizione_breve": "Carta prepagata gratuita con IBAN per pensionati over 60",
+      "descrizione_completa": "Carta prepagata con IBAN dedicata ai pensionati over 60, completamente gratuita. Permette di ricevere la pensione direttamente sulla carta e di effettuare pagamenti e prelievi.",
+      "target": ["pensionati", "over_60", "anziani"],
+      "bisogni": ["accredito_pensione", "pagamenti_base", "canone_zero", "semplicità"],
+      "costi": {
+        "canone": "Gratuita per over 60",
+        "circuito": "Mastercard"
+      },
+      "features": [
+        "Gratuita per chi ha più di 60 anni",
+        "IBAN dedicato per accredito pensione",
+        "Circuito Mastercard",
+        "Prelievi e pagamenti"
+      ],
+      "vantaggi": [
+        "Zero costi",
+        "Semplice da usare",
+        "IBAN per accredito diretto pensione"
+      ],
+      "condizioni": ["Titolare deve avere almeno 60 anni"],
+      "adatto_se": "Sei pensionato, vuoi ricevere la pensione su carta e hai bisogno di uno strumento semplice e gratuito",
+      "non_adatto_se": "Hai bisogno di un conto corrente completo con tutte le funzionalità",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/carte.html",
+      "tags": ["carta", "pensione", "over 60", "gratuita", "IBAN", "anziani", "pensionati"]
+    },
+
+    {
+      "id": "xme-mutuo-acquisto",
+      "nome": "XME Mutuo Acquisto",
+      "categoria": "mutuo",
+      "descrizione_breve": "Mutuo per acquisto casa con simulazione e firma online, a tasso fisso o variabile",
+      "descrizione_completa": "Mutuo ipotecario per l'acquisto di immobili residenziali. Disponibile a tasso fisso o variabile. Permette di simulare la rata e avviare la domanda direttamente online. Adatto all'acquisto della prima o seconda casa.",
+      "target": ["acquirenti_casa", "coppie", "famiglie", "under_36_prima_casa"],
+      "bisogni": ["acquisto_prima_casa", "acquisto_seconda_casa", "finanziamento_immobile"],
+      "costi": {
+        "tasso": "Fisso o variabile",
+        "simulazione": "Online gratuita"
+      },
+      "features": [
+        "Tasso fisso o variabile a scelta",
+        "Simulazione rata online",
+        "Firma domanda online",
+        "Agevolazioni per under 36 (prima casa)",
+        "Fondo di Garanzia Prima Casa disponibile"
+      ],
+      "vantaggi": [
+        "Processo online semplificato",
+        "Flessibilità sulla scelta del tasso",
+        "Agevolazioni per giovani under 36"
+      ],
+      "condizioni": [
+        "Garanzia ipotecaria sull'immobile",
+        "Requisiti reddituali standard"
+      ],
+      "adatto_se": "Vuoi comprare casa e cerchi un mutuo flessibile con possibilità di gestire tutto online",
+      "non_adatto_se": "Hai bisogno di liquidità per altri scopi non legati all'acquisto immobiliare",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/mutui/xme-mutuo-offerta-online.html",
+      "tags": ["mutuo", "acquisto", "prima casa", "seconda casa", "fisso", "variabile", "under 36"]
+    },
+
+    {
+      "id": "mutuo-domus-ristrutturazione",
+      "nome": "Mutuo Domus Ristrutturazione",
+      "categoria": "mutuo",
+      "descrizione_breve": "Mutuo per lavori di ristrutturazione e miglioramento dell'immobile",
+      "descrizione_completa": "Mutuo ipotecario pensato per chi vuole ristrutturare o migliorare la propria abitazione. Disponibile a tasso fisso o variabile, si adatta alle diverse esigenze di intervento edilizio.",
+      "target": ["proprietari_casa", "ristrutturatori", "famiglie"],
+      "bisogni": ["ristrutturazione_casa", "miglioramento_energetico", "lavori_edilizi"],
+      "costi": {
+        "tasso": "Fisso o variabile"
+      },
+      "features": [
+        "Dedicato alla ristrutturazione immobiliare",
+        "Tasso fisso o variabile",
+        "Finanziamento flessibile in base ai lavori"
+      ],
+      "vantaggi": [
+        "Specifico per lavori edilizi",
+        "Possibilità di abbinare a incentivi fiscali (ecobonus, sismabonus)"
+      ],
+      "condizioni": [
+        "Garanzia ipotecaria",
+        "Preventivi lavori richiesti"
+      ],
+      "adatto_se": "Possiedi un immobile e vuoi ristrutturarlo o migliorarne l'efficienza energetica",
+      "non_adatto_se": "Stai acquistando una nuova casa — in quel caso considera XME Mutuo Acquisto",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/mutui.html",
+      "tags": ["mutuo", "ristrutturazione", "lavori", "casa", "ecobonus", "miglioramento energetico"]
+    },
+
+    {
+      "id": "xme-mutuo-surroga",
+      "nome": "XME Mutuo Surroga",
+      "categoria": "mutuo",
+      "descrizione_breve": "Trasferisci il mutuo da un'altra banca a condizioni migliori, senza costi di trasferimento",
+      "descrizione_completa": "Permette di trasferire il mutuo esistente da un'altra banca a Intesa Sanpaolo per ottenere condizioni migliori, senza costi di trasferimento. Disponibile a tasso fisso o variabile.",
+      "target": ["mutuatari_altra_banca", "chi_vuole_risparmiare_rata"],
+      "bisogni": ["ridurre_rata_mutuo", "migliorare_condizioni_mutuo", "cambiare_banca"],
+      "costi": {
+        "costo_trasferimento": "Gratuito",
+        "tasso": "Fisso o variabile"
+      },
+      "features": [
+        "Trasferimento gratuito da altra banca",
+        "Possibilità di migliorare il tasso",
+        "Tasso fisso o variabile",
+        "Nessun costo notarile aggiuntivo"
+      ],
+      "vantaggi": [
+        "Zero costi di trasferimento",
+        "Possibile risparmio sulla rata mensile",
+        "Cambio di banca senza complicazioni"
+      ],
+      "condizioni": [
+        "Mutuo esistente presso altra banca",
+        "Immobile già ipotecato"
+      ],
+      "adatto_se": "Hai già un mutuo e vuoi migliorare le condizioni senza cambiare immobile",
+      "non_adatto_se": "Stai comprando casa per la prima volta",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/mutui.html",
+      "tags": ["mutuo", "surroga", "trasferimento", "risparmio rata", "altra banca", "rinegoziazione"]
+    },
+
+    {
+      "id": "xme-prestito",
+      "nome": "XME Prestito",
+      "categoria": "prestito",
+      "descrizione_breve": "Prestito personale fino a 75.000€ per realizzare i tuoi progetti",
+      "descrizione_completa": "Prestito personale flessibile fino a 75.000€ per qualsiasi tipo di progetto: viaggi, acquisti importanti, spese impreviste, lavori di casa. Richiedibile online o in filiale.",
+      "target": ["adulti", "lavoratori_dipendenti", "autonomi", "famiglie"],
+      "bisogni": ["liquidità", "acquisti_importanti", "spese_impreviste", "progetti_personali", "lavori_casa"],
+      "costi": {
+        "importo_massimo": "75.000€",
+        "rimborso": "A rate mensili fisse"
+      },
+      "features": [
+        "Importo fino a 75.000€",
+        "Finalità libera",
+        "Rate mensili fisse",
+        "Richiedibile online o in filiale",
+        "Risposta rapida"
+      ],
+      "vantaggi": [
+        "Importo elevato per grandi progetti",
+        "Flessibilità di utilizzo",
+        "Processo semplice"
+      ],
+      "condizioni": [
+        "Requisiti reddituali",
+        "Valutazione merito creditizio"
+      ],
+      "adatto_se": "Hai bisogno di liquidità importante per un progetto specifico o spesa imprevista",
+      "non_adatto_se": "Hai bisogno di piccole cifre per emergenze — considera SpensieRata",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/prestiti/xme-prestito.html",
+      "tags": ["prestito", "personale", "liquidità", "75000", "progetti", "rate"]
+    },
+
+    {
+      "id": "per-merito",
+      "nome": "per Merito",
+      "categoria": "prestito",
+      "sottocategoria": "studio",
+      "descrizione_breve": "Prestito per studenti universitari con fino a 2 anni di pre-ammortamento",
+      "descrizione_completa": "Prestito dedicato agli studenti per finanziare università, master e corsi post-diploma. Prevede fino a 2 anni di pre-ammortamento dopo la fine degli studi, permettendo di iniziare a rimborsare solo una volta concluso il percorso formativo.",
+      "target": ["studenti", "universitari", "under_30", "giovani"],
+      "bisogni": ["finanziare_università", "master", "corsi_post_diploma", "studio"],
+      "costi": {
+        "pre_ammortamento": "Fino a 2 anni dopo la fine degli studi",
+        "rimborso": "Rate dopo il periodo di grazia"
+      },
+      "features": [
+        "Dedicato a università, master, corsi post-diploma",
+        "Fino a 2 anni di pre-ammortamento",
+        "Inizi a rimborsare dopo la fine degli studi",
+        "Pensato per studenti"
+      ],
+      "vantaggi": [
+        "Non devi rimborsare mentre studi",
+        "Supporta l'istruzione senza pesare subito sul bilancio familiare",
+        "Flessibile per diversi percorsi formativi"
+      ],
+      "condizioni": [
+        "Iscrizione a corso universitario, master o post-diploma"
+      ],
+      "adatto_se": "Sei uno studente che ha bisogno di finanziare il percorso di studi e vuoi iniziare a rimborsare solo quando lavori",
+      "non_adatto_se": "Hai già finito gli studi o non sei iscritto a un percorso formativo",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/prestiti.html",
+      "tags": ["prestito", "studenti", "università", "master", "studio", "giovani", "per merito"]
+    },
+
+    {
+      "id": "spensierata",
+      "nome": "SpensieRata",
+      "categoria": "prestito",
+      "sottocategoria": "emergenza",
+      "descrizione_breve": "Fino a 5.000€ per emergenze con rate flessibili",
+      "descrizione_completa": "Soluzione di credito rapida per far fronte a emergenze o acquisti imprevisti fino a 5.000€. Le rate sono flessibili e pensate per non gravare eccessivamente sul bilancio mensile.",
+      "target": ["adulti", "correntisti", "emergenze"],
+      "bisogni": ["emergenze", "spese_impreviste", "piccola_liquidità", "acquisti_urgenti"],
+      "costi": {
+        "importo_massimo": "5.000€",
+        "rate": "Flessibili"
+      },
+      "features": [
+        "Importo fino a 5.000€",
+        "Per emergenze e imprevisti",
+        "Rate flessibili",
+        "Richiesta semplice"
+      ],
+      "vantaggi": [
+        "Risposta rapida",
+        "Importo contenuto e gestibile",
+        "Flessibilità nelle rate"
+      ],
+      "condizioni": [],
+      "adatto_se": "Hai una spesa imprevista urgente fino a 5.000€ da gestire con rate comode",
+      "non_adatto_se": "Hai bisogno di importi superiori — considera XME Prestito",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/prestiti.html",
+      "immagine_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400",
+      "tags": ["prestito", "emergenza", "piccolo importo", "5000", "rate flessibili", "rapido"]
+    },
+
+    {
+      "id": "mamma-at-work",
+      "nome": "mamma@work",
+      "categoria": "prestito",
+      "sottocategoria": "famiglia",
+      "descrizione_breve": "Prestito di supporto per le neomamme che rientrano al lavoro",
+      "descrizione_completa": "Prodotto dedicato alle donne nella fase della maternità che rientrano al lavoro. Supporto finanziario pensato per aiutare nella gestione delle spese legate alla cura del bambino e alla ripresa dell'attività lavorativa.",
+      "target": ["neomamme", "donne", "maternità", "famiglie_con_neonati"],
+      "bisogni": ["supporto_maternità", "spese_bambino", "rientro_lavoro", "cura_neonato"],
+      "costi": {
+        "tipo": "Prestito agevolato dedicato"
+      },
+      "features": [
+        "Dedicato alle neomamme",
+        "Supporto nel rientro al lavoro",
+        "Condizioni agevolate"
+      ],
+      "vantaggi": [
+        "Pensato per una fase di vita specifica",
+        "Condizioni dedicate alla maternità"
+      ],
+      "condizioni": ["Destinato a donne in fase di maternità/post-maternità"],
+      "adatto_se": "Sei una neomamma che sta rientrando al lavoro e hai bisogno di supporto finanziario per le spese legate al bambino",
+      "non_adatto_se": "Non sei in fase di maternità o post-maternità",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/prestiti.html",
+      "tags": ["prestito", "mamma", "maternità", "neomamma", "famiglia", "bambino", "donna"]
+    },
+
+    {
+      "id": "xme-prestito-cessione-quinto",
+      "nome": "XME Prestito Cessione del Quinto",
+      "categoria": "prestito",
+      "sottocategoria": "cessione_quinto",
+      "descrizione_breve": "Prestito con rimborso tramite trattenuta mensile sullo stipendio fino a un quinto",
+      "descrizione_completa": "Prestito personale con rimborso tramite trattenuta diretta sulla busta paga, nel limite massimo di un quinto dello stipendio netto. Ideale per lavoratori dipendenti che cercano un rimborso automatico senza pensieri.",
+      "target": ["lavoratori_dipendenti", "pubblici_dipendenti", "pensionati_INPS"],
+      "bisogni": ["liquidità", "rimborso_automatico", "semplicità_gestione"],
+      "costi": {
+        "rimborso": "Massimo 1/5 dello stipendio netto",
+        "tipo": "Trattenuta in busta paga"
+      },
+      "features": [
+        "Rimborso automatico in busta paga",
+        "Massimo 1/5 dello stipendio netto",
+        "Nessun rischio di dimenticare la rata",
+        "Disponibile anche per pensionati INPS"
+      ],
+      "vantaggi": [
+        "Rimborso automatico — zero pensieri",
+        "Non devi ricordarti di pagare le rate",
+        "Accessibile anche con storia creditizia non ottimale"
+      ],
+      "condizioni": [
+        "Essere lavoratore dipendente o pensionato INPS",
+        "Il datore di lavoro deve accettare la cessione"
+      ],
+      "adatto_se": "Sei un lavoratore dipendente o pensionato e vuoi un prestito con rimborso automatico senza gestire rate manualmente",
+      "non_adatto_se": "Sei lavoratore autonomo o libero professionista",
+      "url": "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/prestiti.html",
+      "tags": ["prestito", "cessione quinto", "busta paga", "dipendenti", "pensionati", "automatico"]
+    }
+
+  ],
+
+  "flusso_escalation": {
+    "trigger_ricontatto": [
+      "Il cliente chiede di parlare con un consulente",
+      "La richiesta riguarda importi molto elevati (mutui >500k, prestiti >50k)",
+      "Il cliente ha una situazione reddituale complessa",
+      "Il cliente esprime incertezza su prodotti di investimento",
+      "Il cliente ha già un contenzioso con la banca",
+      "Domande su prodotti non presenti nel database"
+    ],
+    "messaggio_standard": "Capisco, questa è una situazione che merita un confronto diretto con uno dei nostri consulenti. Posso raccogliere i tuoi dati per farti ricontattare entro 24 ore lavorative. Ti va?",
+    "dati_da_raccogliere": ["nome", "cognome", "telefono", "fascia_oraria_preferita", "prodotto_di_interesse"]
+  }
+}

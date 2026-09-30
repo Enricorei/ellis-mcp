@@ -1,0 +1,10 @@
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.git/
+*.log
+server_out.*
+server_err.*
+AVVIA.bat
+avvia_ellis.ps1
